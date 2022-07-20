@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC078CC0288547B500A0FE08 /* SimpleOrionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC078CBF288547B500A0FE08 /* SimpleOrionApp.swift */; };
-		FC078CC2288547B500A0FE08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC078CC1288547B500A0FE08 /* ContentView.swift */; };
+		FC078CC0288547B500A0FE08 /* SimpleCameraApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC078CBF288547B500A0FE08 /* SimpleCameraApp.swift */; };
 		FC078CC4288547B500A0FE08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC078CC3288547B500A0FE08 /* Assets.xcassets */; };
 		FC078CC7288547B500A0FE08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC078CC6288547B500A0FE08 /* Preview Assets.xcassets */; };
-		FC078CD1288547B500A0FE08 /* SimpleOrionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC078CD0288547B500A0FE08 /* SimpleOrionTests.swift */; };
-		FC078CDB288547B500A0FE08 /* SimpleOrionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC078CDA288547B500A0FE08 /* SimpleOrionUITests.swift */; };
-		FC078CDD288547B500A0FE08 /* SimpleOrionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC078CDC288547B500A0FE08 /* SimpleOrionUITestsLaunchTests.swift */; };
+		FC3CBA0428882CF100C9F8FD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3CBA0328882CF100C9F8FD /* ContentView.swift */; };
+		FC3CBA092888496E00C9F8FD /* CameraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3CBA082888496E00C9F8FD /* CameraModel.swift */; };
+		FC3CBA0B2888498E00C9F8FD /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3CBA0A2888498E00C9F8FD /* CameraView.swift */; };
+		FC3CBA0E28884A9300C9F8FD /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3CBA0D28884A9300C9F8FD /* CameraPreview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +34,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FC078CBC288547B500A0FE08 /* SimpleOrion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleOrion.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC078CBF288547B500A0FE08 /* SimpleOrionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOrionApp.swift; sourceTree = "<group>"; };
-		FC078CC1288547B500A0FE08 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC078CBC288547B500A0FE08 /* SimpleCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC078CBF288547B500A0FE08 /* SimpleCameraApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCameraApp.swift; sourceTree = "<group>"; };
 		FC078CC3288547B500A0FE08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC078CC6288547B500A0FE08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FC078CCC288547B500A0FE08 /* SimpleOrionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleOrionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC078CD0288547B500A0FE08 /* SimpleOrionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOrionTests.swift; sourceTree = "<group>"; };
-		FC078CD6288547B500A0FE08 /* SimpleOrionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleOrionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC078CDA288547B500A0FE08 /* SimpleOrionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOrionUITests.swift; sourceTree = "<group>"; };
-		FC078CDC288547B500A0FE08 /* SimpleOrionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOrionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FC078CCC288547B500A0FE08 /* SimpleCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC078CD6288547B500A0FE08 /* SimpleCameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3CBA0328882CF100C9F8FD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC3CBA082888496E00C9F8FD /* CameraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraModel.swift; sourceTree = "<group>"; };
+		FC3CBA0A2888498E00C9F8FD /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		FC3CBA0D28884A9300C9F8FD /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +74,7 @@
 		FC078CB3288547B500A0FE08 = {
 			isa = PBXGroup;
 			children = (
-				FC078CBE288547B500A0FE08 /* SimpleOrion */,
-				FC078CCF288547B500A0FE08 /* SimpleOrionTests */,
-				FC078CD9288547B500A0FE08 /* SimpleOrionUITests */,
+				FC078CBE288547B500A0FE08 /* SimpleCamera */,
 				FC078CBD288547B500A0FE08 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +82,24 @@
 		FC078CBD288547B500A0FE08 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC078CBC288547B500A0FE08 /* SimpleOrion.app */,
-				FC078CCC288547B500A0FE08 /* SimpleOrionTests.xctest */,
-				FC078CD6288547B500A0FE08 /* SimpleOrionUITests.xctest */,
+				FC078CBC288547B500A0FE08 /* SimpleCamera.app */,
+				FC078CCC288547B500A0FE08 /* SimpleCameraTests.xctest */,
+				FC078CD6288547B500A0FE08 /* SimpleCameraUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC078CBE288547B500A0FE08 /* SimpleOrion */ = {
+		FC078CBE288547B500A0FE08 /* SimpleCamera */ = {
 			isa = PBXGroup;
 			children = (
-				FC078CBF288547B500A0FE08 /* SimpleOrionApp.swift */,
-				FC078CC1288547B500A0FE08 /* ContentView.swift */,
+				FC078CBF288547B500A0FE08 /* SimpleCameraApp.swift */,
+				FC3CBA0C28884A8200C9F8FD /* Models */,
+				FC3CBA1028884B5800C9F8FD /* Components */,
+				FC3CBA0F28884B2E00C9F8FD /* Views */,
 				FC078CC3288547B500A0FE08 /* Assets.xcassets */,
 				FC078CC5288547B500A0FE08 /* Preview Content */,
 			);
-			path = SimpleOrion;
+			path = SimpleCamera;
 			sourceTree = "<group>";
 		};
 		FC078CC5288547B500A0FE08 /* Preview Content */ = {
@@ -110,29 +110,37 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		FC078CCF288547B500A0FE08 /* SimpleOrionTests */ = {
+		FC3CBA0C28884A8200C9F8FD /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				FC078CD0288547B500A0FE08 /* SimpleOrionTests.swift */,
+				FC3CBA082888496E00C9F8FD /* CameraModel.swift */,
 			);
-			path = SimpleOrionTests;
+			path = Models;
 			sourceTree = "<group>";
 		};
-		FC078CD9288547B500A0FE08 /* SimpleOrionUITests */ = {
+		FC3CBA0F28884B2E00C9F8FD /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				FC078CDA288547B500A0FE08 /* SimpleOrionUITests.swift */,
-				FC078CDC288547B500A0FE08 /* SimpleOrionUITestsLaunchTests.swift */,
+				FC3CBA0A2888498E00C9F8FD /* CameraView.swift */,
+				FC3CBA0328882CF100C9F8FD /* ContentView.swift */,
 			);
-			path = SimpleOrionUITests;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FC3CBA1028884B5800C9F8FD /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				FC3CBA0D28884A9300C9F8FD /* CameraPreview.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC078CBB288547B500A0FE08 /* SimpleOrion */ = {
+		FC078CBB288547B500A0FE08 /* SimpleCamera */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC078CE0288547B500A0FE08 /* Build configuration list for PBXNativeTarget "SimpleOrion" */;
+			buildConfigurationList = FC078CE0288547B500A0FE08 /* Build configuration list for PBXNativeTarget "SimpleCamera" */;
 			buildPhases = (
 				FC078CB8288547B500A0FE08 /* Sources */,
 				FC078CB9288547B500A0FE08 /* Frameworks */,
@@ -142,14 +150,14 @@
 			);
 			dependencies = (
 			);
-			name = SimpleOrion;
+			name = SimpleCamera;
 			productName = SimpleOrion;
-			productReference = FC078CBC288547B500A0FE08 /* SimpleOrion.app */;
+			productReference = FC078CBC288547B500A0FE08 /* SimpleCamera.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FC078CCB288547B500A0FE08 /* SimpleOrionTests */ = {
+		FC078CCB288547B500A0FE08 /* SimpleCameraTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC078CE3288547B500A0FE08 /* Build configuration list for PBXNativeTarget "SimpleOrionTests" */;
+			buildConfigurationList = FC078CE3288547B500A0FE08 /* Build configuration list for PBXNativeTarget "SimpleCameraTests" */;
 			buildPhases = (
 				FC078CC8288547B500A0FE08 /* Sources */,
 				FC078CC9288547B500A0FE08 /* Frameworks */,
@@ -160,14 +168,14 @@
 			dependencies = (
 				FC078CCE288547B500A0FE08 /* PBXTargetDependency */,
 			);
-			name = SimpleOrionTests;
+			name = SimpleCameraTests;
 			productName = SimpleOrionTests;
-			productReference = FC078CCC288547B500A0FE08 /* SimpleOrionTests.xctest */;
+			productReference = FC078CCC288547B500A0FE08 /* SimpleCameraTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FC078CD5288547B500A0FE08 /* SimpleOrionUITests */ = {
+		FC078CD5288547B500A0FE08 /* SimpleCameraUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC078CE6288547B500A0FE08 /* Build configuration list for PBXNativeTarget "SimpleOrionUITests" */;
+			buildConfigurationList = FC078CE6288547B500A0FE08 /* Build configuration list for PBXNativeTarget "SimpleCameraUITests" */;
 			buildPhases = (
 				FC078CD2288547B500A0FE08 /* Sources */,
 				FC078CD3288547B500A0FE08 /* Frameworks */,
@@ -178,9 +186,9 @@
 			dependencies = (
 				FC078CD8288547B500A0FE08 /* PBXTargetDependency */,
 			);
-			name = SimpleOrionUITests;
+			name = SimpleCameraUITests;
 			productName = SimpleOrionUITests;
-			productReference = FC078CD6288547B500A0FE08 /* SimpleOrionUITests.xctest */;
+			productReference = FC078CD6288547B500A0FE08 /* SimpleCameraUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FC078CB7288547B500A0FE08 /* Build configuration list for PBXProject "SimpleOrion" */;
+			buildConfigurationList = FC078CB7288547B500A0FE08 /* Build configuration list for PBXProject "SimpleCamera" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +227,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC078CBB288547B500A0FE08 /* SimpleOrion */,
-				FC078CCB288547B500A0FE08 /* SimpleOrionTests */,
-				FC078CD5288547B500A0FE08 /* SimpleOrionUITests */,
+				FC078CBB288547B500A0FE08 /* SimpleCamera */,
+				FC078CCB288547B500A0FE08 /* SimpleCameraTests */,
+				FC078CD5288547B500A0FE08 /* SimpleCameraUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,8 +265,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC078CC2288547B500A0FE08 /* ContentView.swift in Sources */,
-				FC078CC0288547B500A0FE08 /* SimpleOrionApp.swift in Sources */,
+				FC3CBA0E28884A9300C9F8FD /* CameraPreview.swift in Sources */,
+				FC3CBA0428882CF100C9F8FD /* ContentView.swift in Sources */,
+				FC3CBA0B2888498E00C9F8FD /* CameraView.swift in Sources */,
+				FC078CC0288547B500A0FE08 /* SimpleCameraApp.swift in Sources */,
+				FC3CBA092888496E00C9F8FD /* CameraModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +277,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC078CD1288547B500A0FE08 /* SimpleOrionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +284,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC078CDD288547B500A0FE08 /* SimpleOrionUITestsLaunchTests.swift in Sources */,
-				FC078CDB288547B500A0FE08 /* SimpleOrionUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +292,12 @@
 /* Begin PBXTargetDependency section */
 		FC078CCE288547B500A0FE08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FC078CBB288547B500A0FE08 /* SimpleOrion */;
+			target = FC078CBB288547B500A0FE08 /* SimpleCamera */;
 			targetProxy = FC078CCD288547B500A0FE08 /* PBXContainerItemProxy */;
 		};
 		FC078CD8288547B500A0FE08 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FC078CBB288547B500A0FE08 /* SimpleOrion */;
+			target = FC078CBB288547B500A0FE08 /* SimpleCamera */;
 			targetProxy = FC078CD7288547B500A0FE08 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -345,7 +353,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -416,15 +424,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimpleOrion/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleCamera/Preview Content\"";
 				DEVELOPMENT_TEAM = MA7VNTX5SB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app uses a the library to save current pictures";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,15 +456,18 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SimpleOrion/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"SimpleCamera/Preview Content\"";
 				DEVELOPMENT_TEAM = MA7VNTX5SB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app uses a the library to save current pictures";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,7 +497,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleOrion.app/SimpleOrion";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCamera.app/SimpleCamera";
 			};
 			name = Debug;
 		};
@@ -503,7 +517,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleOrion.app/SimpleOrion";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCamera.app/SimpleCamera";
 			};
 			name = Release;
 		};
@@ -546,7 +560,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC078CB7288547B500A0FE08 /* Build configuration list for PBXProject "SimpleOrion" */ = {
+		FC078CB7288547B500A0FE08 /* Build configuration list for PBXProject "SimpleCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC078CDE288547B500A0FE08 /* Debug */,
@@ -555,7 +569,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC078CE0288547B500A0FE08 /* Build configuration list for PBXNativeTarget "SimpleOrion" */ = {
+		FC078CE0288547B500A0FE08 /* Build configuration list for PBXNativeTarget "SimpleCamera" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC078CE1288547B500A0FE08 /* Debug */,
@@ -564,7 +578,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC078CE3288547B500A0FE08 /* Build configuration list for PBXNativeTarget "SimpleOrionTests" */ = {
+		FC078CE3288547B500A0FE08 /* Build configuration list for PBXNativeTarget "SimpleCameraTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC078CE4288547B500A0FE08 /* Debug */,
@@ -573,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC078CE6288547B500A0FE08 /* Build configuration list for PBXNativeTarget "SimpleOrionUITests" */ = {
+		FC078CE6288547B500A0FE08 /* Build configuration list for PBXNativeTarget "SimpleCameraUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC078CE7288547B500A0FE08 /* Debug */,
